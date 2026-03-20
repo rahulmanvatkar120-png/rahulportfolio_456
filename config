@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[user]
+	email = rahulmanvatkar24@gmail.com
+	name = Rahul Manvatkar
+[lfs]
+	repositoryformatversion = 0
