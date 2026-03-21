@@ -1,4 +1,5 @@
 import {
+  FaInstagram,
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
@@ -57,6 +58,11 @@ const SocialIcons = () => {
   return (
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
+        <span>
+          <a href="https://www.instagram.com/rahulmanvatkar16" target="_blank">
+            <FaInstagram />
+          </a>
+        </span>
         <span>
           <a href="https://www.linkedin.com" target="_blank">
             <FaLinkedinIn />
