@@ -49,11 +49,6 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://rahulmanvatkar120-png.github.io/tech-talk/" data-cursor="disable">
-              <HoverLinks text="TECH TALK" />
-            </a>
-          </li>
-          <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
