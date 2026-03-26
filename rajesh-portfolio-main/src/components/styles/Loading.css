@@ -220,7 +220,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
 }
 
 .scifi-title-container {
@@ -750,4 +750,178 @@
   .loader-title {
     font-size: 18px;
   }
+}
+
+.simple-splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #0a0a0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+}
+
+.simple-content {
+  text-align: center;
+  color: #fff;
+}
+
+.simple-logo {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  margin: 0 0 2rem;
+  color: #00ffff;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.simple-bar-wrap {
+  width: 200px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+}
+
+.simple-bar {
+  height: 100%;
+  background: #00ffff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.simple-text {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin: 0 0 2rem;
+}
+
+.simple-btn {
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.simple-btn:hover {
+  background: #00ffff;
+  color: #0a0a0f;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.holo-splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #050508;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+}
+
+.holo-circle {
+  position: relative;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holo-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 50%;
+  animation: holoRotate 8s linear infinite;
+}
+
+.holo-ring-2 {
+  width: 80%;
+  height: 80%;
+  border-color: rgba(255, 0, 255, 0.2);
+  animation-direction: reverse;
+  animation-duration: 6s;
+}
+
+@keyframes holoRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.holo-content {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.holo-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.4);
+}
+
+.holo-name-2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.4rem;
+  color: #00ffff;
+  margin-bottom: 1.5rem;
+}
+
+.holo-bar-wrap {
+  width: 180px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  margin: 0 auto 0.8rem;
+  overflow: hidden;
+}
+
+.holo-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #00ffff, #ff00ff);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.holo-percent {
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin: 0 0 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.holo-btn {
+  padding: 0.7rem 2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid rgba(0, 255, 255, 0.6);
+  color: #00ffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.holo-btn:hover {
+  background: rgba(0, 255, 255, 0.15);
+  border-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
 }
