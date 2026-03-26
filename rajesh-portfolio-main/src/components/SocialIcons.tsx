@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
   FaXTwitter,
   FaGlobe,
+  FaBriefcase,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -63,6 +64,11 @@ const SocialIcons = () => {
         <span>
           <a href="https://rahulmanvatkar120-png.github.io/tech-talk/" target="_blank">
             <FaGlobe />
+          </a>
+        </span>
+        <span>
+          <a href="https://rahulmanvatkar120-png.github.io/portfoliodrogon/" target="_blank">
+            <FaBriefcase />
           </a>
         </span>
         <span>
