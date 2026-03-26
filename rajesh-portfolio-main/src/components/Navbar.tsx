@@ -49,7 +49,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://rahulmanvatkar120-png.github.io/tech-talk/" target="_blank" rel="noopener noreferrer" data-cursor="disable">
+            <a href="https://rahulmanvatkar120-png.github.io/tech-talk/" data-cursor="disable">
               <HoverLinks text="TECH TALK" />
             </a>
           </li>
